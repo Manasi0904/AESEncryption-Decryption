@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D0DD843B354D8B28D1821A /* libPods-AESEncryptionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C35BDF740B0F58A38D2327 /* libPods-AESEncryptionTests.a */; };
+		732925B7F7DD845E71EB23F7 /* libPods-AESEncryption-AESEncryptionUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CAD7F3213520662F88F44D /* libPods-AESEncryption-AESEncryptionUITests.a */; };
+		82E86F6E58A30F09EE4FA161 /* libPods-AESEncryption.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2615FA45D246B0E26051CEA /* libPods-AESEncryption.a */; };
+		D53ACE992D2D50FD00074E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53ACE982D2D50FD00074E44 /* AppDelegate.swift */; };
+		D53ACE9B2D2D50FD00074E44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53ACE9A2D2D50FD00074E44 /* SceneDelegate.swift */; };
+		D53ACE9D2D2D50FD00074E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53ACE9C2D2D50FD00074E44 /* ViewController.swift */; };
+		D53ACEA02D2D50FD00074E44 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D53ACE9F2D2D50FD00074E44 /* Base */; };
+		D53ACEA22D2D50FF00074E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53ACEA12D2D50FF00074E44 /* Assets.xcassets */; };
+		D53ACEA52D2D50FF00074E44 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D53ACEA42D2D50FF00074E44 /* Base */; };
+		D53ACEB02D2D50FF00074E44 /* AESEncryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53ACEAF2D2D50FF00074E44 /* AESEncryptionTests.swift */; };
+		D53ACEBA2D2D50FF00074E44 /* AESEncryptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53ACEB92D2D50FF00074E44 /* AESEncryptionUITests.swift */; };
+		D53ACEBC2D2D50FF00074E44 /* AESEncryptionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53ACEBB2D2D50FF00074E44 /* AESEncryptionUITestsLaunchTests.swift */; };
+		D5F39DEA2D2E332D00990E3B /* EncryptFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F39DE92D2E332D00990E3B /* EncryptFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D53ACEAC2D2D50FF00074E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53ACE8D2D2D50FD00074E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53ACE942D2D50FD00074E44;
+			remoteInfo = AESEncryption;
+		};
+		D53ACEB62D2D50FF00074E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53ACE8D2D2D50FD00074E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53ACE942D2D50FD00074E44;
+			remoteInfo = AESEncryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EF97BF326847AFCBBD29E2F /* Pods-AESEncryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEncryption.debug.xcconfig"; path = "Target Support Files/Pods-AESEncryption/Pods-AESEncryption.debug.xcconfig"; sourceTree = "<group>"; };
+		52FB9874CC18B876DB3A03EE /* Pods-AESEncryptionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEncryptionTests.release.xcconfig"; path = "Target Support Files/Pods-AESEncryptionTests/Pods-AESEncryptionTests.release.xcconfig"; sourceTree = "<group>"; };
+		55CE266F3F23CA8A2DA7F1B5 /* Pods-AESEncryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEncryption.release.xcconfig"; path = "Target Support Files/Pods-AESEncryption/Pods-AESEncryption.release.xcconfig"; sourceTree = "<group>"; };
+		A8C35BDF740B0F58A38D2327 /* libPods-AESEncryptionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AESEncryptionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FBED097ED993FC6CDA1812 /* Pods-AESEncryption-AESEncryptionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEncryption-AESEncryptionUITests.release.xcconfig"; path = "Target Support Files/Pods-AESEncryption-AESEncryptionUITests/Pods-AESEncryption-AESEncryptionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D53ACE952D2D50FD00074E44 /* AESEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53ACE982D2D50FD00074E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D53ACE9A2D2D50FD00074E44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D53ACE9C2D2D50FD00074E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D53ACE9F2D2D50FD00074E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D53ACEA12D2D50FF00074E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53ACEA42D2D50FF00074E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D53ACEA62D2D50FF00074E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D53ACEAB2D2D50FF00074E44 /* AESEncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESEncryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53ACEAF2D2D50FF00074E44 /* AESEncryptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionTests.swift; sourceTree = "<group>"; };
+		D53ACEB52D2D50FF00074E44 /* AESEncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AESEncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53ACEB92D2D50FF00074E44 /* AESEncryptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionUITests.swift; sourceTree = "<group>"; };
+		D53ACEBB2D2D50FF00074E44 /* AESEncryptionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESEncryptionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5F39DE92D2E332D00990E3B /* EncryptFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptFile.swift; sourceTree = "<group>"; };
+		E2615FA45D246B0E26051CEA /* libPods-AESEncryption.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AESEncryption.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E681CE2A6CBA35BBE2C221E4 /* Pods-AESEncryption-AESEncryptionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEncryption-AESEncryptionUITests.debug.xcconfig"; path = "Target Support Files/Pods-AESEncryption-AESEncryptionUITests/Pods-AESEncryption-AESEncryptionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F163CB86BB61A1099626B775 /* Pods-AESEncryptionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AESEncryptionTests.debug.xcconfig"; path = "Target Support Files/Pods-AESEncryptionTests/Pods-AESEncryptionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4CAD7F3213520662F88F44D /* libPods-AESEncryption-AESEncryptionUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AESEncryption-AESEncryptionUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53ACE922D2D50FD00074E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E86F6E58A30F09EE4FA161 /* libPods-AESEncryption.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53ACEA82D2D50FF00074E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D0DD843B354D8B28D1821A /* libPods-AESEncryptionTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53ACEB22D2D50FF00074E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732925B7F7DD845E71EB23F7 /* libPods-AESEncryption-AESEncryptionUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53ACE8C2D2D50FD00074E44 = {
+			isa = PBXGroup;
+			children = (
+				D53ACE972D2D50FD00074E44 /* AESEncryption */,
+				D53ACEAE2D2D50FF00074E44 /* AESEncryptionTests */,
+				D53ACEB82D2D50FF00074E44 /* AESEncryptionUITests */,
+				D53ACE962D2D50FD00074E44 /* Products */,
+				FA465B5364E118BC57F4C5C5 /* Pods */,
+				F3F1846722BD90CE23808963 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D53ACE962D2D50FD00074E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53ACE952D2D50FD00074E44 /* AESEncryption.app */,
+				D53ACEAB2D2D50FF00074E44 /* AESEncryptionTests.xctest */,
+				D53ACEB52D2D50FF00074E44 /* AESEncryptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53ACE972D2D50FD00074E44 /* AESEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				D53ACE982D2D50FD00074E44 /* AppDelegate.swift */,
+				D53ACE9A2D2D50FD00074E44 /* SceneDelegate.swift */,
+				D53ACE9C2D2D50FD00074E44 /* ViewController.swift */,
+				D5F39DE92D2E332D00990E3B /* EncryptFile.swift */,
+				D53ACE9E2D2D50FD00074E44 /* Main.storyboard */,
+				D53ACEA12D2D50FF00074E44 /* Assets.xcassets */,
+				D53ACEA32D2D50FF00074E44 /* LaunchScreen.storyboard */,
+				D53ACEA62D2D50FF00074E44 /* Info.plist */,
+			);
+			path = AESEncryption;
+			sourceTree = "<group>";
+		};
+		D53ACEAE2D2D50FF00074E44 /* AESEncryptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D53ACEAF2D2D50FF00074E44 /* AESEncryptionTests.swift */,
+			);
+			path = AESEncryptionTests;
+			sourceTree = "<group>";
+		};
+		D53ACEB82D2D50FF00074E44 /* AESEncryptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D53ACEB92D2D50FF00074E44 /* AESEncryptionUITests.swift */,
+				D53ACEBB2D2D50FF00074E44 /* AESEncryptionUITestsLaunchTests.swift */,
+			);
+			path = AESEncryptionUITests;
+			sourceTree = "<group>";
+		};
+		F3F1846722BD90CE23808963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2615FA45D246B0E26051CEA /* libPods-AESEncryption.a */,
+				F4CAD7F3213520662F88F44D /* libPods-AESEncryption-AESEncryptionUITests.a */,
+				A8C35BDF740B0F58A38D2327 /* libPods-AESEncryptionTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA465B5364E118BC57F4C5C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EF97BF326847AFCBBD29E2F /* Pods-AESEncryption.debug.xcconfig */,
+				55CE266F3F23CA8A2DA7F1B5 /* Pods-AESEncryption.release.xcconfig */,
+				E681CE2A6CBA35BBE2C221E4 /* Pods-AESEncryption-AESEncryptionUITests.debug.xcconfig */,
+				A9FBED097ED993FC6CDA1812 /* Pods-AESEncryption-AESEncryptionUITests.release.xcconfig */,
+				F163CB86BB61A1099626B775 /* Pods-AESEncryptionTests.debug.xcconfig */,
+				52FB9874CC18B876DB3A03EE /* Pods-AESEncryptionTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53ACE942D2D50FD00074E44 /* AESEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53ACEBF2D2D50FF00074E44 /* Build configuration list for PBXNativeTarget "AESEncryption" */;
+			buildPhases = (
+				2B3A2271A6295EA2143B9F2E /* [CP] Check Pods Manifest.lock */,
+				D53ACE912D2D50FD00074E44 /* Sources */,
+				D53ACE922D2D50FD00074E44 /* Frameworks */,
+				D53ACE932D2D50FD00074E44 /* Resources */,
+				5C6C15885910BCD0DA3A10AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AESEncryption;
+			productName = AESEncryption;
+			productReference = D53ACE952D2D50FD00074E44 /* AESEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D53ACEAA2D2D50FF00074E44 /* AESEncryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53ACEC22D2D50FF00074E44 /* Build configuration list for PBXNativeTarget "AESEncryptionTests" */;
+			buildPhases = (
+				256E11F21CAE0528C80F7615 /* [CP] Check Pods Manifest.lock */,
+				D53ACEA72D2D50FF00074E44 /* Sources */,
+				D53ACEA82D2D50FF00074E44 /* Frameworks */,
+				D53ACEA92D2D50FF00074E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D53ACEAD2D2D50FF00074E44 /* PBXTargetDependency */,
+			);
+			name = AESEncryptionTests;
+			productName = AESEncryptionTests;
+			productReference = D53ACEAB2D2D50FF00074E44 /* AESEncryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D53ACEB42D2D50FF00074E44 /* AESEncryptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D53ACEC52D2D50FF00074E44 /* Build configuration list for PBXNativeTarget "AESEncryptionUITests" */;
+			buildPhases = (
+				6F9024625B1D5C752B704C8E /* [CP] Check Pods Manifest.lock */,
+				D53ACEB12D2D50FF00074E44 /* Sources */,
+				D53ACEB22D2D50FF00074E44 /* Frameworks */,
+				D53ACEB32D2D50FF00074E44 /* Resources */,
+				BB9AFC0326891BA3578952AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D53ACEB72D2D50FF00074E44 /* PBXTargetDependency */,
+			);
+			name = AESEncryptionUITests;
+			productName = AESEncryptionUITests;
+			productReference = D53ACEB52D2D50FF00074E44 /* AESEncryptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53ACE8D2D2D50FD00074E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D53ACE942D2D50FD00074E44 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D53ACEAA2D2D50FF00074E44 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D53ACE942D2D50FD00074E44;
+					};
+					D53ACEB42D2D50FF00074E44 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D53ACE942D2D50FD00074E44;
+					};
+				};
+			};
+			buildConfigurationList = D53ACE902D2D50FD00074E44 /* Build configuration list for PBXProject "AESEncryption" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53ACE8C2D2D50FD00074E44;
+			productRefGroup = D53ACE962D2D50FD00074E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53ACE942D2D50FD00074E44 /* AESEncryption */,
+				D53ACEAA2D2D50FF00074E44 /* AESEncryptionTests */,
+				D53ACEB42D2D50FF00074E44 /* AESEncryptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53ACE932D2D50FD00074E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53ACEA22D2D50FF00074E44 /* Assets.xcassets in Resources */,
+				D53ACEA52D2D50FF00074E44 /* Base in Resources */,
+				D53ACEA02D2D50FD00074E44 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53ACEA92D2D50FF00074E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53ACEB32D2D50FF00074E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		256E11F21CAE0528C80F7615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESEncryptionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B3A2271A6295EA2143B9F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESEncryption-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6C15885910BCD0DA3A10AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESEncryption/Pods-AESEncryption-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESEncryption/Pods-AESEncryption-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AESEncryption/Pods-AESEncryption-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9024625B1D5C752B704C8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AESEncryption-AESEncryptionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9AFC0326891BA3578952AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESEncryption-AESEncryptionUITests/Pods-AESEncryption-AESEncryptionUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AESEncryption-AESEncryptionUITests/Pods-AESEncryption-AESEncryptionUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AESEncryption-AESEncryptionUITests/Pods-AESEncryption-AESEncryptionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53ACE912D2D50FD00074E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53ACE9D2D2D50FD00074E44 /* ViewController.swift in Sources */,
+				D5F39DEA2D2E332D00990E3B /* EncryptFile.swift in Sources */,
+				D53ACE992D2D50FD00074E44 /* AppDelegate.swift in Sources */,
+				D53ACE9B2D2D50FD00074E44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53ACEA72D2D50FF00074E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53ACEB02D2D50FF00074E44 /* AESEncryptionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53ACEB12D2D50FF00074E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53ACEBA2D2D50FF00074E44 /* AESEncryptionUITests.swift in Sources */,
+				D53ACEBC2D2D50FF00074E44 /* AESEncryptionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D53ACEAD2D2D50FF00074E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53ACE942D2D50FD00074E44 /* AESEncryption */;
+			targetProxy = D53ACEAC2D2D50FF00074E44 /* PBXContainerItemProxy */;
+		};
+		D53ACEB72D2D50FF00074E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53ACE942D2D50FD00074E44 /* AESEncryption */;
+			targetProxy = D53ACEB62D2D50FF00074E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D53ACE9E2D2D50FD00074E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53ACE9F2D2D50FD00074E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D53ACEA32D2D50FF00074E44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D53ACEA42D2D50FF00074E44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D53ACEBD2D2D50FF00074E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D53ACEBE2D2D50FF00074E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D53ACEC02D2D50FF00074E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF97BF326847AFCBBD29E2F /* Pods-AESEncryption.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AESEncryption/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manasi.AESEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D53ACEC12D2D50FF00074E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CE266F3F23CA8A2DA7F1B5 /* Pods-AESEncryption.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AESEncryption/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manasi.AESEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D53ACEC32D2D50FF00074E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F163CB86BB61A1099626B775 /* Pods-AESEncryptionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manasi.AESEncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESEncryption.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AESEncryption";
+			};
+			name = Debug;
+		};
+		D53ACEC42D2D50FF00074E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52FB9874CC18B876DB3A03EE /* Pods-AESEncryptionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manasi.AESEncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AESEncryption.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AESEncryption";
+			};
+			name = Release;
+		};
+		D53ACEC62D2D50FF00074E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E681CE2A6CBA35BBE2C221E4 /* Pods-AESEncryption-AESEncryptionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manasi.AESEncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AESEncryption;
+			};
+			name = Debug;
+		};
+		D53ACEC72D2D50FF00074E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FBED097ED993FC6CDA1812 /* Pods-AESEncryption-AESEncryptionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = manasi.AESEncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AESEncryption;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53ACE902D2D50FD00074E44 /* Build configuration list for PBXProject "AESEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53ACEBD2D2D50FF00074E44 /* Debug */,
+				D53ACEBE2D2D50FF00074E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53ACEBF2D2D50FF00074E44 /* Build configuration list for PBXNativeTarget "AESEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53ACEC02D2D50FF00074E44 /* Debug */,
+				D53ACEC12D2D50FF00074E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53ACEC22D2D50FF00074E44 /* Build configuration list for PBXNativeTarget "AESEncryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53ACEC32D2D50FF00074E44 /* Debug */,
+				D53ACEC42D2D50FF00074E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D53ACEC52D2D50FF00074E44 /* Build configuration list for PBXNativeTarget "AESEncryptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53ACEC62D2D50FF00074E44 /* Debug */,
+				D53ACEC72D2D50FF00074E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53ACE8D2D2D50FD00074E44 /* Project object */;
+}

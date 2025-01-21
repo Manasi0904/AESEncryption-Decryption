@@ -1,0 +1,6 @@
+module Pods_AESEncryption {
+  umbrella header "Pods-AESEncryption-umbrella.h"
+
+  export *
+  module * { export * }
+}
